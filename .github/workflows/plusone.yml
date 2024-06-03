@@ -8,6 +8,6 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: planningcenter/plus-one-action@v1
+      - uses: planningcenter/plus-one-action@wm/fix-comment-clobbering
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
