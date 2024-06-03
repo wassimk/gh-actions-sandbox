@@ -2,7 +2,7 @@ name: Plus One
 
 on:
   pull_request_review:
-    types: [submitted, dismissed]
+    types: [dismissed, edited, submitted]
 
 jobs:
   lint:
