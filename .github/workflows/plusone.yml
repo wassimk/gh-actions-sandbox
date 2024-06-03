@@ -2,7 +2,7 @@ name: Plus One
 
 on:
   pull_request:
-    types: [review_request_removed]
+    types: [review_request_removed, review_requested]
   pull_request_review:
     types: [dismissed, submitted]
 
