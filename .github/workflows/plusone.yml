@@ -1,8 +1,10 @@
 name: Plus One
 
 on:
+  pull_request:
+    types: [review_request_removed]
   pull_request_review:
-    types: [dismissed, edited, submitted]
+    types: [dismissed, submitted]
 
 jobs:
   lint:
