@@ -8,6 +8,6 @@ jobs:
   assign:
     runs-on: ubuntu-latest
     steps:
-      - uses: planningcenter/pull-assign-action@v1
+      - uses: planningcenter/pull-assign-action@wm/tweaks
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
