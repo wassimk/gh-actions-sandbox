@@ -1,13 +1,15 @@
 name: Plus One
 
 on:
+  pull_request:
+    types: [review_request_removed, review_requested]
   pull_request_review:
-    types: [submitted, dismissed]
+    types: [dismissed, submitted]
 
 jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: planningcenter/plus-one-action@v1
+      - uses: planningcenter/plus-one-action@wm/fix-comment-clobbering
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
