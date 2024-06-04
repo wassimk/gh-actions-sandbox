@@ -1,3 +1,3 @@
 source "https://rubygems.org"
 
-gem "kaminari", "0.15.0"
+gem "kaminari", "1.2.1"
