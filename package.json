@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "braces": "^3.0.2"
+    "braces": "^3.0.3"
   }
 }
