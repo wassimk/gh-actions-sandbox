@@ -1,7 +1,4 @@
 source "https://rubygems.org"
 
-gem "kaminari", "~> 0.11.0"
-gem "minitest", "1.4.0"
-gem "rack", "1.0.0"
-gem "rails", "~> 2.3"
+gem "rails", "~> 6.0.0"
 
