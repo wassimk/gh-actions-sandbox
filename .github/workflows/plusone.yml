@@ -13,6 +13,3 @@ jobs:
       - uses: planningcenter/plus-one-action@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-permissions:
-  pull-requests: write
