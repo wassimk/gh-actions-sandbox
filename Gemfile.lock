@@ -150,7 +150,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  rails (~> 6.0.0)
+  rails (~> 6.0.6.1)
 
 BUNDLED WITH
    2.6.3
